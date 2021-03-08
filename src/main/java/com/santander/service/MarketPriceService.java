@@ -15,6 +15,9 @@ public class MarketPriceService {
     private static final DateTimeFormatter TIMESTAMP_FORMATTER = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss:SSS");
     private List<Price> savedPrices = new ArrayList<>();
 
+    private MarketPriceService() {
+    }
+
     public static MarketPriceService getInstance() {
         return instance;
     }

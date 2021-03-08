@@ -7,6 +7,9 @@ public class MarketPriceSubscriber {
     private static final MarketPriceSubscriber instance = new MarketPriceSubscriber();
     private final MarketPriceService marketPriceService = MarketPriceService.getInstance();
 
+    private MarketPriceSubscriber() {
+    }
+
     public static MarketPriceSubscriber getInstance() {
         return instance;
     }
