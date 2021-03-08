@@ -1,4 +1,4 @@
-package com.santander.resource;
+package com.santander.web;
 
 import com.santander.model.Price;
 import com.santander.service.MarketPriceService;

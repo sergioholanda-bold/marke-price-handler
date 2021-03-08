@@ -1,7 +1,7 @@
 package com.santander;
 
 import com.santander.model.Price;
-import com.santander.resource.MarketPriceResource;
+import com.santander.web.MarketPriceResource;
 import com.santander.subscriber.MarketPriceSubscriber;
 import org.junit.Before;
 import org.junit.Test;
